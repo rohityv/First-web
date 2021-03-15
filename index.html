@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Dev-rohit </title>
+                 <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                      <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Shippori+Mincho&display=swap" rel="stylesheet">
+                <!-- External Css File -->
+    <link rel ="stylesheet" href = "index.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-container">
+        <a href="#" class = "menu-icon">
+          <div></div>
+          <div></div>
+          <div></div>
+        </a>
+        <ul class = "hor-navbar">
+          <li class = "active"><a href="#" onclick="HomeFunc()"><i class="fa fa-home"></i>Home</a></li>
+          <li><a href="#" onclick="AboutFunc()"><i class="fa fa-user"></i>About</a></li>
+          <li><a href="#" onclick="SearchFunc()"><i class="fa fa-search"></i>Search</a></li>
+          <li><a href="#" onclick="ContFunc()"><i class="fa fa-phone"></i>Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="toggle-navbar">
+        <ul class = "ver-navbar">
+          <li><a href="page01.html">JavaScript Projects</a></li>
+          <li><a href="https://github.com/rohityv/React-Project.git">React projects</a></li>
+          <li><a href="#">Css Projects</a></li>
+        </ul>
+      </nav>
+            <!-- For About Link -->
+      <section id = "ClickonAbout">
+       <div class="Allboxes">
+          <div class="Aboutbox1">
+             <a href="#" onclick="Aboutbackbtn()" class = "fa fa-arrow-left"style = "text-decoration:none;font-size:40px"></a>
+             <h1> ||ABOUT||</h1>
+             <a href="#" onclick="Aboutbackbtn()" class = "fa fa-times" style = "text-decoration:none;font-size:40px"></a>
+          </div>
+          <div class="Aboutbox2">
+             <img src="rohit-pic.png" alt="Loading..." width="200" style="border-radius:50%;background:black;transform:rotate(3deg)">
+          </div>
+          <div class="Aboutbox3">
+             <p>Hi, my name is "Rohit" I am a front-end developer, and I'm learning web development since
+               I lost my previous job because of the covid-19 pandemic and currently,
+               I am looking for a job in "Front-end development" To see my projects go on "JavaScript projects" link. </p>
+          </div>
+        </div>
+      </section>
+                  <!-- For Contact Link -->
+      <section id = "ClickonContact">
+         <div class="BoxesforContact">
+            <div class="Contbox1">
+                <a href="#" onclick="Contbackbtn()" class = "fa fa-arrow-left"style = "text-decoration:none;font-size:40px"></a>
+                <h1> ||CONTACT||</h1>
+                <a href="#" onclick="Contbackbtn()" class = "fa fa-times" style = "text-decoration:none;font-size:40px"></a>
+            </div>
+            <div class="Contbox2">
+               <h2>Mobile No: 9769950552/7021852672</h2>
+               <h2>Email Id: rohityadav9769@gmail.com</h2>
+               <h2>Address:  Mumbai, MH,  400065 </h2>
+            </div>
+            <div class="Contbox3">
+              <a href="https://www.linkedin.com/in/rohit-yadav-69a493144"style="text-decoration:none;background:blue;color:white">Linkedin</a>
+            </div>
+         </div>
+      </section>
+                      <!-- For Search link -->
+      <section class="ClickonSearch">
+         <div class="fa fa-search"></div>
+         <input type="text" placeholder="Search">
+         <div class="fa fa-times"></div>
+      </section>
+    </header>
+    <main>
+        <div style = "box-shadow:3px 3px 3px #ddd; ">
+            <section class="headersec">
+               <h1>Front-End Developer</h1>
+               <hr/>
+            </section>
+            <section class="imagesec">
+                <img src="rohit-pic.png" alt="Loading..." style = "transform:rotate(3deg);">
+            </section>
+        </div>
+        <section class  = "grid-section">
+          <div class="gridsec-box1">
+            <h2>About Me</h2>
+            <p>Hi, my name is "Rohit" I am a front-end developer, and I'm learning web development since
+              I lost my previous job because of the covid-19 pandemic and currently,
+              I am looking for a job in "Front-end development" To see my projects go on "JavaScript projects" link.
+             </p>
+          </div>
+          <div class="gridsec-box2">
+            <h2>JavaScript Projects</h2>
+            <p>These projects are based on what I have learned from the past few months,
+              I also have some projects which are based on "React.js" to see the code go to my "GitHub repository".
+            </p>
+            <div><a href="page01.html"> JavaScript Projects </a></div>
+          </div>
+          <div class="gridsec-box5">
+            <h2>Github repository</h2>
+              <ul type="none">
+                 <p>Click on the below link to see the code of this website on a GitHub</p>
+                <li> <a href="https://github.com/rohityv/Dev-rohit.git">Dev-rohit</a> </li>
+                <p>Click on the below link to see the code of my react.js project, which I uploaded on GitHub </p>
+               <li> <a href="https://github.com/rohityv/React-Project.git">React projects</a> </li>
+             </ul>
+          </div>
+          <div class="gridsec-box4">
+            <h2>Download Resume</h2>
+            <p>To download Resum, Click on the "Resume" button.</p>
+             <div><a href="rohit_resume.pdf">Resume</a></div>
+          </div>
+          <div class="gridsec-box3">
+            <h2>Css Projects</h2>
+            <p>I like doing "animation" in CSS, so my CSS projects would be based on animation,
+              and I also like the "Media query" concept in CSS, by media query
+              we can make our website responsive for different platforms like "mobile" or "tablet".
+             </p>
+          </div>
+          <div class="gridsec-box6">
+            <h2>More Projects</h2>
+          </div>
+        </section> <br/><br/><br/><br/><br/>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src = "index.js"></script>
+  </body>
+</html>
