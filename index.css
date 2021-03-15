@@ -314,7 +314,7 @@ body{
   box-shadow: 3px 3px 3px #ddd;
   border-radius: 5px;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:769px){
    body{
      margin: 4rem 3% 0 3%;
    }
