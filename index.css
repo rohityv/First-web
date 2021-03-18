@@ -368,7 +368,7 @@ footer div a{
     display: none;
   }
   .toggle-navbar{
-    position:fixed;left: 0px;top:74px; overflow:auto;
+    position:fixed;left: 0px;top:73px; overflow:auto;
     width: 75%;
   }
   .ClickonSearch{
