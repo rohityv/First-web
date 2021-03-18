@@ -76,10 +76,9 @@ body{
   align-items: center;
   flex-direction: column;
   background-color: green;
-  box-shadow: 1px 1px 1px blue;
   width: 20%;
   height:100%;
-  position:fixed;left: 0px;top:58px; overflow:auto;
+  position:fixed;left: 0px;top:59px; overflow:auto;
   transform: translateX(-100%);
   transition: transform 0.2s ease-in;
   z-index: 1;
@@ -368,7 +367,7 @@ footer div a{
     display: none;
   }
   .toggle-navbar{
-    position:fixed;left: 0px;top:73px; overflow:auto;
+    position:fixed;left: 0px;top:74px; overflow:auto;
     width: 75%;
   }
   .ClickonSearch{
