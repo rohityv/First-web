@@ -94,7 +94,7 @@ margin-top: 3rem;
   box-shadow: 6px 6px 3px #ddd;
 }
 
-@media screen and (max-width:629px){
+@media screen and (max-width:768px){
   body{
     margin: 20% 3% 0 3%;
   }
