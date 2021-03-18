@@ -340,7 +340,7 @@ footer div a{
   color:black;
   text-shadow: 2px 2px 2px aqua;
 }
-@media screen and (max-width:780px){
+@media screen and (max-width:768px){
    body{
      margin: 5rem 3% 0 3%;
    }
